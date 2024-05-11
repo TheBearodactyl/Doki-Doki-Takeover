@@ -21,6 +21,11 @@ import lime.app.Application;
 import flixel.group.FlxGroup.FlxTypedGroup;
 import flixel.group.FlxGroup;
 import shaders.ColorMaskShader;
+import flixel.util.FlxDirection.LEFT;
+import flixel.util.FlxDirection.RIGHT;
+import flixel.util.FlxDirection.UP;
+import flixel.util.FlxDirection.DOWN;
+
 #if FEATURE_DISCORD
 import Discord.DiscordClient;
 #end
@@ -607,7 +612,7 @@ class CostumeSelectStateOriginal extends MusicBeatState
 
 		if (dad.facing != dad.initFacing)
 		{
-			dad.facing = FlxObject.RIGHT;
+			dad.facing = RIGHT;
 		}
 
 	}

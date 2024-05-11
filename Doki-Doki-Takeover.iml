@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="HAXE_MODULE" version="4">
+  <component name="HaxeModuleSettingsStorage">
+    <option name="buildConfig" value="3" />
+    <option name="openFLPath" value="$MODULE_DIR$/Project.xml" />
+    <option name="outputFolder" value="C:\Users\thebe\bigprojects\Doki-Doki-Takeover/out" />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/.haxelib" />
+    </content>
+    <orderEntry type="jdk" jdkName="Haxe 4.3.4" jdkType="Haxe toolkit" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library name="Haxelib: flixel:5.5.0">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/.haxelib/flixel/5,5,0" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/.haxelib/flixel/5,5,0" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library name="Haxelib: flixel-addons:3.2.2">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/.haxelib/flixel-addons/3,2,2" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/.haxelib/flixel-addons/3,2,2" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library name="Haxelib: flixel-ui:2.6.1">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/.haxelib/flixel-ui/2,6,1" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/.haxelib/flixel-ui/2,6,1" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library name="Haxelib: flxanimate:3.0.4 [git]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/.haxelib/flxanimate/git" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/.haxelib/flxanimate/git" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library name="Haxelib: firetongue:2.1.0">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/.haxelib/firetongue/2,1,0" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/.haxelib/firetongue/2,1,0" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library name="Haxelib: hxCodec:3.0.2 [git]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/.haxelib/hxCodec/git/src" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/.haxelib/hxCodec/git/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library name="Haxelib: extension-androidtools:2.0.3">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/.haxelib/extension-androidtools/2,0,3" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/.haxelib/extension-androidtools/2,0,3" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library name="Haxelib: linc_discord-rpc:Unknown">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library name="Haxelib: systools:1.1.0">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/.haxelib/systools/1,1,0" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/.haxelib/systools/1,1,0" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library name="Haxelib: hxcpp-debug-server:1.2.4">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/.haxelib/hxcpp-debug-server/1,2,4" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/.haxelib/hxcpp-debug-server/1,2,4" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library name="Haxelib: hxcpp:4.3.2">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/.haxelib/hxcpp/4,3,2" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/.haxelib/hxcpp/4,3,2" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library name="Haxelib: lime:8.1.2">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/.haxelib/lime/8,1,2/src" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/.haxelib/lime/8,1,2/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>

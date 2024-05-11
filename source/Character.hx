@@ -5,12 +5,17 @@ import flixel.FlxObject;
 import flixel.FlxG;
 import flixel.FlxSprite;
 import flixel.graphics.frames.FlxAtlasFrames;
+import flixel.util.FlxDirection.LEFT;
+import flixel.util.FlxDirection.RIGHT;
+import flixel.util.FlxDirection.UP;
+import flixel.util.FlxDirection.DOWN;
 import lime.utils.Assets;
 import haxe.Json;
 
 using StringTools;
 
-typedef CharacterFile = {
+typedef CharacterFile =
+{
 	var animations:Array<AnimArray>;
 	var image:String;
 	var scale:Float;
@@ -40,7 +45,8 @@ typedef CostumeList =
 	var charFile:String;
 }
 
-typedef AnimArray = {
+typedef AnimArray =
+{
 	var anim:String;
 	var name:String;
 	var fps:Int;
@@ -54,6 +60,7 @@ class Character extends FlxSprite
 	var DEFAULT_CHARACTER:String = 'hidden';
 
 	public var animOffsets:Map<String, Array<Dynamic>>;
+
 	public static var debugMode:Bool = false;
 
 	public static var loadaltcostume:Bool = true;
@@ -61,7 +68,7 @@ class Character extends FlxSprite
 	public static var isFestival:Bool = false;
 
 	public static var ingame:Bool = true;
-	
+
 	public var stunned:Bool = false;
 
 	var costumeoverride:String = '';
@@ -80,6 +87,7 @@ class Character extends FlxSprite
 	public var gameoverchara:String = 'gameover-generic';
 	public var gameovercharamirror:String = 'bf';
 	public var healthIcon:String = 'bf';
+
 	var hasCostume = false;
 	var json:CharacterFile;
 
@@ -88,7 +96,8 @@ class Character extends FlxSprite
 	public var holdTimer:Float = 0;
 
 	// https://github.com/ThatRozebudDude/FPS-Plus-Public/pull/11
-	public var initFacing:Int = FlxObject.RIGHT;
+	public var initFacing:Int = RIGHT;
+
 	var initWidth:Float;
 
 	public function new(x:Float, y:Float, ?character:String = "bf", ?isPlayer:Bool = false, ?forceCostume:String = '')
@@ -154,9 +163,9 @@ class Character extends FlxSprite
 					jsonLoad("costumes/" + charafile);
 				else
 					jsonLoad(charafile);
-			}	
+			}
 		}
-			
+
 		if (Assets.exists(Paths.getPath('images/' + json.image + '.txt', TEXT)))
 		{
 			frames = Paths.getPackerAtlas(json.image);
@@ -171,11 +180,11 @@ class Character extends FlxSprite
 
 		if (!!json.flip_x)
 		{
-			initFacing = FlxObject.LEFT;
+			initFacing = LEFT;
 		}
 		else
 		{
-			initFacing = FlxObject.RIGHT;
+			initFacing = RIGHT;
 		}
 
 		if (json.scale != 1)
@@ -245,13 +254,13 @@ class Character extends FlxSprite
 		costumeoverride = '';
 		initWidth = frameWidth;
 
-		//Doing it like this for now
-		setFacingFlip((initFacing == FlxObject.LEFT ? FlxObject.RIGHT : FlxObject.LEFT), true, false);
-		
-		if (!PlayState.mirrormode)	
-			facing = (isPlayer ? FlxObject.LEFT : FlxObject.RIGHT);
+		// Doing it like this for now
+		setFacingFlip((initFacing == LEFT ? RIGHT : LEFT), true, false);
+
+		if (!PlayState.mirrormode)
+			facing = (isPlayer ? LEFT : RIGHT);
 		else // Turn around please, I beg of you ;-; //Edit, 20 lines of code condenced to this dumb crap ;-;
-			facing = (isPlayer ? FlxObject.RIGHT : FlxObject.LEFT);
+			facing = (isPlayer ? RIGHT : LEFT);
 
 		calculateDanceIdle();
 		dance();

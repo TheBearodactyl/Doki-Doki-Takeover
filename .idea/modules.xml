@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Doki-Doki-Takeover.iml" filepath="$PROJECT_DIR$/Doki-Doki-Takeover.iml" />
+      <module fileurl="file://$PROJECT_DIR$/export/debug/windows/haxe/haxe.iml" filepath="$PROJECT_DIR$/export/debug/windows/haxe/haxe.iml" />
+    </modules>
+  </component>
+</project>
